@@ -1,5 +1,5 @@
 $date
-	Tue Apr 22 14:18:01 2025
+	Tue Apr 22 14:30:55 2025
 $end
 $version
 	Icarus Verilog
@@ -34,13 +34,13 @@ $var wire 1 ) x2 $end
 $var wire 1 * x3 $end
 $var wire 1 + in_out $end
 $var wire 1 " f $end
-$scope module mod1 $end
+$scope module mod0 $end
 $var wire 1 % s $end
 $var wire 1 ( x1 $end
 $var wire 1 ) x2 $end
 $var wire 1 + f $end
 $upscope $end
-$scope module mod2 $end
+$scope module mod1 $end
 $var wire 1 & s $end
 $var wire 1 + x1 $end
 $var wire 1 * x2 $end

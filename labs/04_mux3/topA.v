@@ -10,8 +10,8 @@ module mux3e (
     input x1, x2, x3, s0, s1,
     output f);
     // Instancie e conecte os componentes abaixo  
-    mux2 mod1 ( in_out , s0 , x1 , x2 );
-    mux2 mod2 ( f , s1 , in_out , x3 );
+    mux2 mod0 ( in_out , s0 , x1 , x2 );
+    mux2 mod1 ( f , s1 , in_out , x3 );
 
 endmodule
 
